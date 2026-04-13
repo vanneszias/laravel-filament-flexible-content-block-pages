@@ -23,7 +23,7 @@
         "guava/filament-icon-picker": "^3.1|^4.0",
         "illuminate/contracts": "^11.0|^12.0|^13.0",
         "mcamara/laravel-localization": "^2.3",
-        "solution-forest/filament-tree": "^4.0.1",
+        "solution-forest/filament-tree": "^3.1.5",
         "spatie/laravel-missing-page-redirector": "^2.11",
         "spatie/laravel-package-tools": "^1.16",
         "spatie/laravel-sitemap": "^7.3",
@@ -44,8 +44,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Statikbe\\FilamentFlexibleContentBlockPages\\": "src/",
-            "Statikbe\\FilamentFlexibleContentBlockPages\\Database\\Factories\\": "database/factories/"
+            "Statikbe\FilamentFlexibleContentBlockPages\": "src/",
+            "Statikbe\FilamentFlexibleContentBlockPages\Database\Factories\": "database/factories/"
         },
         "files": [
             "src/helpers.php"
@@ -53,8 +53,8 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Statikbe\\FilamentFlexibleContentBlockPages\\Tests\\": "tests/",
-            "Workbench\\App\\": "workbench/app/"
+            "Statikbe\FilamentFlexibleContentBlockPages\Tests\": "tests/",
+            "Workbench\App\": "workbench/app/"
         }
     },
     "scripts": {
@@ -76,10 +76,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Statikbe\\FilamentFlexibleContentBlockPages\\FilamentFlexibleContentBlockPagesServiceProvider"
+                "Statikbe\FilamentFlexibleContentBlockPages\FilamentFlexibleContentBlockPagesServiceProvider"
             ],
             "aliases": {
-                "FilamentFlexibleContentBlockPages": "Statikbe\\FilamentFlexibleContentBlockPages\\Facades\\FilamentFlexibleContentBlockPages"
+                "FilamentFlexibleContentBlockPages": "Statikbe\FilamentFlexibleContentBlockPages\Facades\FilamentFlexibleContentBlockPages"
             }
         }
     },
